@@ -5,7 +5,6 @@ services:
   - type: web
     name: my_webapp
     runtime: static
-    plan: free
     repo: https://github.com/yahia-adam/cloud_static_app
     branch: main
     staticPublishPath: ./
