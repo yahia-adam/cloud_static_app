@@ -3,11 +3,11 @@ previews:
 
 services:
   - type: web
-    runtime: nodejs
     name: my_webapp
+    runtime: static
+    plan: free
     repo: https://github.com/yahia-adam/cloud_static_app
-    # region: frankfurt
-    # plan: standard    # Default: starter
-    branch: main      # Default: master
-    buildCommand: npm install
+    branch: main
+    staticPublishPath: ./
+
     
